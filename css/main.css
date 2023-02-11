@@ -194,11 +194,11 @@ section {
 }
 .header-contacts__cap-tel:focus {
   fill: #2196f3;
-  border: 1px solid #2196f3;
+  color: #2196f3;
 }
 .header-contacts__cap-tel:hover {
   fill: #2196f3;
-  border: 1px solid #2196f3;
+  color: #2196f3;
 }
 
 .header-contacts__cap-mailto {
