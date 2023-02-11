@@ -19,7 +19,7 @@
 }
 .header-contacts a {
   display: block;
-  color: var(--additional-color);
+  color: #757575;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -40,7 +40,7 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    fill: var(--additional-color);
+    fill: #757575;
    
     
   }
@@ -52,15 +52,15 @@
   }
   .header-contacts__cap-mailto:hover,
   .header-contacts__cap-mailto:focus{
-    color: var(--accent-color);
-      fill: var(--accent-color);
+    color:#2196f3;
+      fill: #2196f3;
     }
   
       
   .header-contacts__cap-tel:hover,
   .header-contacts__cap-tel:focus{
-    color: var(--accent-color);
-      fill: var(--accent-color);
+    color: #2196f3;
+      fill: #2196f3;
   }
   .header-contacts__icon-envelope{
     padding: 0;

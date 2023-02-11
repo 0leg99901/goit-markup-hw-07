@@ -1,7 +1,6 @@
 .header-list a:hover,
 .header-list a :focus {
-  color: var(--accent-color);
-}
+  color: #2196f3;}
 .header-list{
   display: flex;
   padding: 0;
@@ -18,7 +17,7 @@
 .header-list a {
   position: relative;
   display :block;
-  color: var(--primary-text-color);
+  color:#212121;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -34,10 +33,10 @@
 
 
 .header-list a.header-list__cap-studio {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .header-list a.header-list__cap-portfolio{
-  color: var(--accent-color);
+  color:#2196f3;
 }
 .header-list__cap-studio:after{
   content: '';
