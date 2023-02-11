@@ -31,12 +31,9 @@
     
   }
   
-  .hero__button-cap :hover,
-  .hero__button-cap:focus {
-    color: #2196f3;
-  }
+ 
   .hero__button-cap {
-    background-color: #2196f3;
+    background-color: $accent_color;
     color: #ffff;
     font-family: inherit;
     font-weight: 700;
@@ -48,4 +45,10 @@
     border: none;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
       border-radius: 4px;
+      &:hover{
+        color: $accent_color;
+      }
+      &:focus{
+        color: $accent_color;
+      }
   }

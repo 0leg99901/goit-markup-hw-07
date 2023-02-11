@@ -80,7 +80,7 @@ p {
 /* logotype*/
 
 .logo-web {
-  color: var(--accent-color);
+  color:  var(--accent-color);;
 }
 /* site navigation*/
 .site-nav a:hover,
