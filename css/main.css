@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -40,7 +40,7 @@ section {
 .page-header a {
   margin-right: 93px;
   color: #212121;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
@@ -94,7 +94,7 @@ section {
   position: relative;
   display: block;
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -381,6 +381,7 @@ section {
 }
 
 .section-we_do {
+  padding: 0;
   padding-bottom: 94px;
 }
 
@@ -623,12 +624,6 @@ section {
 
 .customer li:not(:first-child) {
   margin-left: 30px;
-}
-
-.customer__clients-link:hover,
-.customer__clients-link:focus {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
 }
 
 .customer__clients-link {
@@ -1375,6 +1370,7 @@ section {
 }
 
 .project-list__work-text {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;

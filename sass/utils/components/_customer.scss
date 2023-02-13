@@ -11,13 +11,7 @@
   .customer li:not(:first-child){
     margin-left: 30px;
     }
-  .customer__clients-link:hover,
-  .customer__clients-link:focus
-  {
-    fill: #2196f3;
-    border: 1px solid $accent_color;
-    
-  }
+
   .customer__clients-link {
     display: flex;
     width: 170px;
